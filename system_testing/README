@@ -1,0 +1,8 @@
+
+pip install behave
+pip install pyhamcrest
+
+behave
+behave --tags=-all
+behave --tags=all
+behave --color
