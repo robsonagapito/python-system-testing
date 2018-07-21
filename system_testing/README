@@ -1,7 +1,16 @@
+Python with selenium webdriver for system testing
 
+PYTHON VERSION
+==============
+Python 3.6.5
+
+INSTALL - LIBRARIES
+===================
 pip install behave
 pip install pyhamcrest
 
+RUN
+===
 behave
 behave --tags=-all
 behave --tags=all
