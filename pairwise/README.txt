@@ -44,6 +44,17 @@ Installation
 
   Ps.: AllPairs need to run with Python 3
 
+  If you have this problem (windows):
+
+  * ModuleNotFoundError: No module named... *
+
+  You must run this command
+
+  setx PYTHONPATH "<PythonPath>;<PythonPath>\DLLs;<PythonPath>\lib;<PythonPath>\lib\plat-win;<PythonPath>\lib\site-packages"
+
+  Ex.:
+  setx PYTHONPATH "C:\Programas\python\3.7.4;C:\Programas\python\3.7.4\DLLs;C:\Programas\python\3.7.4\lib;C:\Programas\python\3.7.4\lib\plat-win;C:\Programas\python\3.7.4\lib\site-packages"
+
 Run
 ---
 

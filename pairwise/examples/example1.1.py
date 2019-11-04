@@ -1,5 +1,5 @@
-import metacomm.combinatorics.all_pairs2
-all_pairs = metacomm.combinatorics.all_pairs2.all_pairs2
+import pairwise.all_pairs2
+all_pairs = pairwise.all_pairs2.all_pairs2
 
 """
 Demo of the basic functionality - just getting pairwise/n-wise combinations
@@ -10,7 +10,7 @@ Demo of the basic functionality - just getting pairwise/n-wise combinations
 # http://www.stsc.hill.af.mil/consulting/sw_testing/improvement/cst.html
 
 
-parameters = [ [ "X", "Y" ]
+parameters = [ [ "Male", "Female" ]
              , [ "Win 7", "Win 8", "Win 10", "Linux"]
              , [ "Network", "Modem", "Wifi" ]
              , [ "Salaried", "Hourly", "Part-Time" ]

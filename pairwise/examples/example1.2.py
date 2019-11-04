@@ -1,5 +1,5 @@
-import metacomm.combinatorics.all_pairs2
-all_pairs = metacomm.combinatorics.all_pairs2.all_pairs2
+import pairwise.all_pairs2
+all_pairs = pairwise.all_pairs2.all_pairs2
 
 """
 Demo of the basic functionality - just getting pairwise/n-wise combinations
