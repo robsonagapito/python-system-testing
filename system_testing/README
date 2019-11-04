@@ -4,10 +4,31 @@ PYTHON VERSION
 ==============
 Python 3.6.5
 
+INSTALL - DRIVERS
+=================
+If your driver is not compatible, the testing automation will not be to work.
+
+* Install chromedriver compatible with your Chrome Driver
+( https://chromedriver.chromium.org/ )
+
+* Install geckodirver compatible with Firefox
+( https://github.com/mozilla/geckodriver/releases )
+
 INSTALL - LIBRARIES
 ===================
-pip install behave
-pip install pyhamcrest
+sudo pip install behave
+sudo pip install pyhamcrest
+sudo pip install selenium
+
+CHOOSING YOUR BROWSER
+=====================
+
+You can choose your browse in file environment.py.
+In method configDriver, you must put: firefox or chrome
+
+Ex:
+context.driverQA.configDriver("firefox")
+context.driverQA.configDriver("chrome")
 
 RUN
 ===

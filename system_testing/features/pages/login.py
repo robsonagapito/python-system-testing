@@ -1,9 +1,12 @@
+import os
+
 class Login:
 	def __init__(self, driverQA):
 		self.driver = driverQA
 
 	def open_url(self):
-		self.driver.get('file://C:/workspace/tdc/sp/2018/python/html/login.html')
+		cwd = os.getcwd()
+		self.driver.get('file://'+ cwd + '/html/login.html')
 
 	def fill_user(self, value):
 		self.driver.send_keys('login', value)

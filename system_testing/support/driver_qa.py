@@ -14,10 +14,12 @@ class DriverQA(object):
 
 	def configDriver(self, browserWeb):
 		if browserWeb == "firefox":
+			print("Bro, we will use Firefox browser... ;)")
 			firefox_capabilities = DesiredCapabilities.FIREFOX
 			firefox_capabilities['marionette'] = True
 			browser = webdriver.Firefox(capabilities=firefox_capabilities)
 		else:
+			print("Bro, we will use Chrome browser... ;)")
 			co = Options()
 			co.add_argument("--web-security=false")
 			co.add_argument("--ssl-protocol=any")
