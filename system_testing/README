@@ -6,9 +6,9 @@ Python 3.6.5
 
 INSTALL - DRIVERS
 =================
-If your driver is not compatible, the testing automation will not be to work.
+If your driver is not compatible with your browser, the testing automation will not be to work.
 
-* Install chromedriver compatible with your Chrome Driver
+* Install chromedriver compatible with Chrome
 ( https://chromedriver.chromium.org/ )
 
 * Install geckodirver compatible with Firefox
