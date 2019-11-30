@@ -2,7 +2,8 @@ Python with selenium webdriver for system testing
 
 PYTHON VERSION
 ==============
-Python 3.6.5
+* *Python Version* - Python 3.7.0
+* *Pip Version* - pip 19.3.1 
 
 INSTALL - DRIVERS
 =================
