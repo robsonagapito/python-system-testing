@@ -1,2 +1,0 @@
-include MANIFEST.in *.txt
-recursive-include examples *
